@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: dodgerblue;
+    color: white;
+    width: 434px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    /* background-color: navy; */
+    width: 90vw
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    display: flex;
+    /* background-color: blue; */
+    height: 45vh;
+    width: 80vw;
+    height: 58vh;
+    margin: 142px auto;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    margin-top: 23px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 23px;
+    font-size: 30px;
+}
+
+.education {
+    margin-top: 23px;
+    font-size: 25px;
+}
+
+.skills {
+    margin-top: 23px;
+    font-size: 21px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.buttons button {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    border:dodgerblue 2px solid;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+
+.devpic img {
+    height: 58vh;
+
+}
