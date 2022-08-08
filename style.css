@@ -8,8 +8,8 @@
 }
 
 .sidebar {
-    background-color: dodgerblue;
-    color: white;
+    background-color:rgb(199, 194, 194);
+    color: black;
     width: 434px;
     height: 100vh;
     font-family: 'Fira Sans', sans-serif;
@@ -27,7 +27,7 @@
 
 .sidebar nav li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .main {
@@ -47,6 +47,28 @@
     height: 58vh;
     margin: 142px auto;
     justify-content: space-around;
+}
+
+.contactContainer {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    height: 45vh;
+    width: 80vw;
+    height: 38vh;
+    margin-top: 280px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactContainer .contactform .mb-4 {
+    margin-top: 4px;
 }
 
 .devinfo {
@@ -90,18 +112,29 @@
     font-family: 'Roboto', sans-serif;
     padding: 15px;
     border-radius: 22px;
-    color: white;
-    background-color: dodgerblue;
-    border:dodgerblue 2px solid;
+    color: black;
+    background-color: rgb(199, 194, 194);
+    border:rgb(199, 194, 194) 2px solid;
     font-size: 15px;
     font-weight: bold;
     margin: 0 6px;
     cursor: pointer;
 }
 
+.buttons button a {
+    text-decoration: none;
+    color: black;
+}
+
 .buttons button:hover{
-    background-color: white;
-    color: dodgerblue;
+    background-color: black;
+    color: rgb(199, 194, 194);
+
+}
+
+.buttons button a:hover{
+    background-color: black;
+    color: rgb(199, 194, 194);
 
 }
 
